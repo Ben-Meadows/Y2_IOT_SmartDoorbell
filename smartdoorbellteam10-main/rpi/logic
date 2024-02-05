@@ -1,0 +1,11 @@
+They come close -> start recording
+	if they walk away -> stop & save and notify
+	if they've been there 90s stop save and notify
+	if they push the button, discard recording and send snapshot and notify
+If the button is pushed, send snapshot and notify
+
+Live Feed:
+	Only retains the last few frames, rest is deleted
+	Speed at which it updates is based on the state of the application logic
+		Normal framerate  - 0.2
+		Any signal - 3-5~	

@@ -1,0 +1,5 @@
+*.h264
+*.json
+__pycache__/
+*.swp
+.venv/
